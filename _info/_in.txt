@@ -1,0 +1,9 @@
+# Get-EventLog -LogName System -Newest 20 finds log: -> Possible detection of CVE: 2022-04-20T18:59:03.3213045Z
+
+https://answers.microsoft.com/en-us/windows/forum/all/eventlog-possible-detection-of-cve/f1cf216d-e59a-41dc-a7d2-f4bc599e91c6
+
+# See full details of help file for cmdlet
+ - Use -full or -ShowWindow parameters, where -ShowWindow works with already well formatted XML
+
+# Convert The output of cmdlets into HTML 
+ - ConvertTo-Html # Run get-help ConvertTo-Html -examples
