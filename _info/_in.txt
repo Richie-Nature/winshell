@@ -7,3 +7,8 @@ https://answers.microsoft.com/en-us/windows/forum/all/eventlog-possible-detectio
 
 # Convert The output of cmdlets into HTML 
  - ConvertTo-Html # Run get-help ConvertTo-Html -examples
+
+# Send output to a file
+ - Out-File #Run get-help Out-File -examples
+ (e.g) Get-Process | Out-File -FilePath <path-to-file> #Get processes running on local pc, pipe result to Out-File cmdlet
+	Get-Content -Path <path-to-file>
